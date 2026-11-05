@@ -1,0 +1,55 @@
+name: Sync upstream skills
+
+on:
+  schedule:
+    - cron: '17 1 * * *' # Every day at 09:17 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - sources.json
+      - scripts/sync_skills.py
+      - tests/**
+      - .github/workflows/sync-skills.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream-skills
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - name: Test sync behavior
+        run: python3 -m unittest discover -s tests -v
+      - name: Download upstream snapshots
+        run: python3 scripts/sync_skills.py
+      - name: Validate installable skills
+        run: python3 scripts/sync_skills.py --check
+      - name: Commit changes or keep an idle schedule active
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- skills sources.lock.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: sync upstream skills'
+          else
+            last_commit=$(git log -1 --format=%ct)
+            now=$(date +%s)
+            if (( now - last_commit < 45 * 86400 )); then
+              echo 'No upstream changes.'
+              exit 0
+            fi
+            git commit --allow-empty -m 'chore: keep scheduled skill sync active'
+          fi
+          # A concurrent owner edit causes a safe push failure; never force-push.
+          git push origin HEAD:main

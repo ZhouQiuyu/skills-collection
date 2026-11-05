@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "plain-writing",
+      "repository": "docwriter-org/plain-writing-skill",
+      "ref": "main",
+      "path": "skills/plain-writing",
+      "license_file": "LICENSE",
+      "license_sha256": "39faf3ed00fe4fe65ffb58cf1d5e8444e193d52f3c0c08437cbfca65e974b1fd"
+    },
+    {
+      "name": "humanizer",
+      "repository": "blader/humanizer",
+      "ref": "main",
+      "path": ".",
+      "license_file": "LICENSE",
+      "license_sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96"
+    }
+  ]
+}
