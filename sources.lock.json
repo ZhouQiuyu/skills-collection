@@ -21,18 +21,18 @@
       "repository": "blader/humanizer",
       "ref": "main",
       "path": ".",
-      "revision": "0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
+      "revision": "b48c832f0f809c1b5658edbb838c2521b72f2413",
       "files": {
         ".claude-plugin/marketplace.json": {
           "sha256": "e539740285b660d2288a38b6d9b237396c6769828c671c46b9f91e760db6cc29",
           "executable": false
         },
         ".claude-plugin/plugin.json": {
-          "sha256": "7c7e020ce1f0eb9dcf888710cf7129ede8c3c862ae690ce6714763398f12c783",
+          "sha256": "6e5986d4b59eaf4fe1b3e2a222d21b30416c074c9a203dde6dfede161313af37",
           "executable": false
         },
         ".cursor-plugin/plugin.json": {
-          "sha256": "d1e0b50594cf4bbe57fd164b771b401713a91b76b5a213ebe8f4558bb2036546",
+          "sha256": "e46f08aff6131bb895f3c8e9da0ab8a57dacade01864bb16f0b816831e425468",
           "executable": false
         },
         ".github/ISSUE_TEMPLATE/config.yml": {
@@ -52,11 +52,11 @@
           "executable": false
         },
         "AGENTS.md": {
-          "sha256": "de84a449da400454df1225ddb1ced728c35bf0be7811b239e3370c7dbe1f4e69",
+          "sha256": "0f60ef3dc762eb5eceb7dcc1393e30053d136c2eb3db0e8df857b1465acfd344",
           "executable": false
         },
         "CHANGELOG.md": {
-          "sha256": "b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa",
+          "sha256": "0f4135c99064f65838b1c443ada16a2a85996d033e851ef6214218b939429800",
           "executable": false
         },
         "LICENSE": {
@@ -64,15 +64,19 @@
           "executable": false
         },
         "README.md": {
-          "sha256": "500b53c0d29cd3219d160b5f9a109c0969f706aec74b49a4a081d2026ba48ec7",
+          "sha256": "bff3e7aae020e5eef8f2412774336be5102da3c92262ffb242bb76fb4d52c373",
           "executable": false
         },
         "SKILL.md": {
-          "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+          "sha256": "804a119e924ac30295b298213e0b71b3e38b2667b8ef4fb7b69e9246369b9045",
           "executable": false
         },
         "agents/openai.yaml": {
           "sha256": "9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736",
+          "executable": false
+        },
+        "package.json": {
+          "sha256": "5f410311d1b23d8d0d209de6cc4bd5a9b142333253d660fc1214c6ca17366336",
           "executable": false
         },
         "scripts/validate-package.py": {
