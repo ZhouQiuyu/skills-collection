@@ -16,6 +16,22 @@
       "path": ".",
       "license_file": "LICENSE",
       "license_sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "ref": "main",
+      "path": ".claude/skills/ui-ux-pro-max",
+      "license_file": "LICENSE",
+      "license_sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+    },
+    {
+      "name": "3dviz-pro-max",
+      "repository": "viettranx/3dviz-pro-max",
+      "ref": "main",
+      "path": "skills/3dviz-pro-max",
+      "license_file": "LICENSE",
+      "license_sha256": "8f14c9e32eca3aa5a85bb7c376ebd0471adb7c9c5a174c5f3f479f50bb0f5316"
     }
   ]
 }

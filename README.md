@@ -8,6 +8,8 @@
 | --- | --- | --- | --- |
 | [plain-writing](skills/plain-writing/SKILL.md) | 用简单、直接的语言撰写和修改文字 | [docwriter-org/plain-writing-skill](https://github.com/docwriter-org/plain-writing-skill) | MIT |
 | [humanizer](skills/humanizer/SKILL.md) | 修改文字中的常见 AI 写作痕迹，保留原意 | [blader/humanizer](https://github.com/blader/humanizer) | MIT |
+| [ui-ux-pro-max](skills/ui-ux-pro-max/SKILL.md) | 设计和改进网页、移动端及桌面界面，检索配色、字体、布局和交互建议 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | MIT |
+| [3dviz-pro-max](skills/3dviz-pro-max/SKILL.md) | 创建交互式 3D 场景、讲解模型和科学可视化，附带数据、模板和检查工具 | [viettranx/3dviz-pro-max](https://github.com/viettranx/3dviz-pro-max) | MIT |
 
 ## 在 CC Switch 中安装
 
@@ -27,9 +29,14 @@
 
 参考：[CC Switch 官方技能管理文档](https://github.com/farion1231/cc-switch/blob/main/docs/user-manual/zh/3-extensions/3.3-skills.md)。不同版本的界面名称可能略有差异。
 
+### 技能使用说明
+
+- `ui-ux-pro-max` 保留上游 Claude 插件版原文。通过 CC Switch 安装为独立技能后，文中的 `${CLAUDE_PLUGIN_ROOT}/.claude/skills/ui-ux-pro-max/` 应按实际安装目录定位，使用该目录内 `scripts/search.py` 的完整路径。
+- `3dviz-pro-max` 的命令示例相对于技能目录，使用时从该目录运行或传入脚本的完整路径。场景截图工具需要另装 Playwright 和浏览器；收藏和安装技能文件不会安装这些依赖。
+
 ## 自动同步
 
-- 每天北京时间 **09:17** 检查两个上游仓库的 `main` 分支。GitHub 的定时任务可能延迟。
+- 每天北京时间 **09:17** 检查 `sources.json` 中各上游仓库的 `main` 分支。GitHub 的定时任务可能延迟。
 - 在 **Actions → Sync upstream skills → Run workflow** 中可立即检查。
 - 修改 `sources.json` 或同步脚本后也会触发检查。
 - 按上游固定提交复制完整技能目录，保留引用文件、文件权限和版权声明。这里使用实际文件，方便 CC Switch 通过 GitHub ZIP 下载。
