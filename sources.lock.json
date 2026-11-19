@@ -89,14 +89,14 @@
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
       "ref": "main",
       "path": ".claude/skills/ui-ux-pro-max",
-      "revision": "7436a6e0b6dc3add7c12d5b6ef1ccd3d410dd7fd",
+      "revision": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
       "files": {
         "LICENSE": {
           "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
           "executable": false
         },
         "SKILL.md": {
-          "sha256": "af9cf89efd1eac29495fb44f25b3fae8b96bf9ddbaaa2a47c6e835d9aa568a6f",
+          "sha256": "bee6aa0382bc15099715ad8f0b11fdb224932eb516a4ea9134a2d7d38f5fcde4",
           "executable": false
         },
         "data/app-interface.csv": {
@@ -104,19 +104,19 @@
           "executable": false
         },
         "data/catalog-summary.json": {
-          "sha256": "b27655fbce8fec64b7ab7ec6ac11f079a0e6ab29a5c2785d624cedc96dd0742f",
+          "sha256": "5958a771e0358ec494b2eadceddd7e6d153ebf964f7a87dc80790c58ba50bda0",
           "executable": false
         },
         "data/charts.csv": {
-          "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a",
+          "sha256": "80045f5793cbeca3b1373831851c992444a38967960cbba900c1472f1420e978",
           "executable": false
         },
         "data/colors.csv": {
-          "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c",
+          "sha256": "f14cc97bc4c3527e6181b2ec3231704271249ca4ad56dcaa9bf562ab795a3dd7",
           "executable": false
         },
         "data/data-provenance.json": {
-          "sha256": "e29a3aab8d8418a23f67e00a8e8f3064afe4eea1183540ec4af374ec6f4fc938",
+          "sha256": "d766d1afb9fcdce89dbba580161b3dad260702a18871b12ab7f762eeaf8883e8",
           "executable": false
         },
         "data/google-font-licenses.json": {
@@ -144,7 +144,7 @@
           "executable": false
         },
         "data/products.csv": {
-          "sha256": "5756125e2b0e0d2360926f175d0975c8cd846c7589e5e2ce02631ff645e66361",
+          "sha256": "2b78d254f0fe0cc137ee811df280215c257868df24d2041264624d01f747f511",
           "executable": false
         },
         "data/react-performance.csv": {
@@ -248,11 +248,11 @@
           "executable": false
         },
         "data/ui-reasoning.csv": {
-          "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a",
+          "sha256": "60b8b1a0fc426d65c8d536fbd348e89e6c6484ab9cb54ddbcfe85b4339d960f9",
           "executable": false
         },
         "data/ux-guidelines.csv": {
-          "sha256": "d63dc39439cf615cdccfdf7acd2301e0c3ce5e1e56a89b60617fa190f7511512",
+          "sha256": "9c473c1104e93f3d985f2d46d8854735e1a1deb8e0ac5ecd39c7e3b04e5d7528",
           "executable": false
         },
         "references/pro-rules.md": {
@@ -260,7 +260,7 @@
           "executable": false
         },
         "references/quick-reference.md": {
-          "sha256": "fc53ccfafaa08d40d7326e34e88e9387df60b4256cd649d34dcae0284f247949",
+          "sha256": "a2628145f48f076dda3d0f75e26a066a6590d4762da5aa4bb9bdd47782aa93cb",
           "executable": false
         },
         "scripts/core.py": {
@@ -332,7 +332,7 @@
           "executable": false
         },
         "scripts/tests/fixtures/relevance-thresholds.json": {
-          "sha256": "39606753d4f4f449c9267e4e6a91a4dab7e6d15df26dba08ec08fe6fcfc5fa31",
+          "sha256": "3a588049c839fd9a2ddb5b29a4ac696d9cdc9823a6d90485bb9ba2a6d59fb685",
           "executable": false
         },
         "scripts/tests/test_catalog_refresh.py": {
@@ -352,7 +352,7 @@
           "executable": false
         },
         "scripts/tests/test_data_contracts.py": {
-          "sha256": "0360d6e10080c0bca214f2b0bbad582ba50702a542ce21013351aca54938df3a",
+          "sha256": "6c819a2596520e47f4f459ed6b763fec5fb71e35a8074563f8c35432fc5c9ced",
           "executable": false
         },
         "scripts/tests/test_design_system_mode.py": {
@@ -373,6 +373,14 @@
         },
         "scripts/tests/test_ime_composition.py": {
           "sha256": "7d4fc32b18ccfca02835a48163c93a36f44f9a794d25aaca888bba0b2127c05e",
+          "executable": false
+        },
+        "scripts/tests/test_map_guidance.py": {
+          "sha256": "1564c10c01676423c32de146559f7b4023423f9f374ad6f88d205debf6196e4f",
+          "executable": false
+        },
+        "scripts/tests/test_map_product_types.py": {
+          "sha256": "36f70fa5cd0ed71084be2cbf2eac20f59f3304c60ba1ce8b7e8c7690a11f4d77",
           "executable": false
         },
         "scripts/tests/test_native_desktop_stack_freshness.py": {
@@ -404,7 +412,7 @@
           "executable": false
         },
         "scripts/validate_data.py": {
-          "sha256": "a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8",
+          "sha256": "e31ef4e1db1e6bb7910fb14b2a4dc139c513bca17d1e2827b292bde87d7120ca",
           "executable": false
         }
       }
