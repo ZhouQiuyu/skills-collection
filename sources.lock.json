@@ -21,7 +21,7 @@
       "repository": "blader/humanizer",
       "ref": "main",
       "path": ".",
-      "revision": "b48c832f0f809c1b5658edbb838c2521b72f2413",
+      "revision": "a32f24407364c74c812b43c15926d638bee1e072",
       "files": {
         ".claude-plugin/marketplace.json": {
           "sha256": "e539740285b660d2288a38b6d9b237396c6769828c671c46b9f91e760db6cc29",
@@ -56,7 +56,7 @@
           "executable": false
         },
         "CHANGELOG.md": {
-          "sha256": "0f4135c99064f65838b1c443ada16a2a85996d033e851ef6214218b939429800",
+          "sha256": "553a2873a5b888f2224cae57eade8062434f2434ab925c8be6352286572d8173",
           "executable": false
         },
         "LICENSE": {
@@ -64,11 +64,11 @@
           "executable": false
         },
         "README.md": {
-          "sha256": "bff3e7aae020e5eef8f2412774336be5102da3c92262ffb242bb76fb4d52c373",
+          "sha256": "21b8a7319c3b3180c410361a852a54aef641d630b962fe29807e6e98e1b27707",
           "executable": false
         },
         "SKILL.md": {
-          "sha256": "804a119e924ac30295b298213e0b71b3e38b2667b8ef4fb7b69e9246369b9045",
+          "sha256": "3013910ef5433dab12f0d2b86d9cf9e3421a253ef986518a68ef07aa29629bdc",
           "executable": false
         },
         "agents/openai.yaml": {
@@ -80,7 +80,7 @@
           "executable": false
         },
         "scripts/validate-package.py": {
-          "sha256": "941bd99e52b2ba21449719bb7969607ac8117e3dc173d0c9dfe64fd274c65938",
+          "sha256": "5505ad366c8185616e1a6c3989e633d918b55d4bd2030e98123a2423991e8069",
           "executable": true
         }
       }
