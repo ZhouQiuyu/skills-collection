@@ -89,14 +89,14 @@
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
       "ref": "main",
       "path": ".claude/skills/ui-ux-pro-max",
-      "revision": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+      "revision": "6ec2bb58334ca3014573c4cbd4834ee3a40afd9d",
       "files": {
         "LICENSE": {
           "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
           "executable": false
         },
         "SKILL.md": {
-          "sha256": "bee6aa0382bc15099715ad8f0b11fdb224932eb516a4ea9134a2d7d38f5fcde4",
+          "sha256": "d99f9475eaff0522549bc71843b6b2a8563253329d99ad7c0236275a039c2659",
           "executable": false
         },
         "data/app-interface.csv": {
@@ -104,7 +104,7 @@
           "executable": false
         },
         "data/catalog-summary.json": {
-          "sha256": "5958a771e0358ec494b2eadceddd7e6d153ebf964f7a87dc80790c58ba50bda0",
+          "sha256": "764bdc2a5a0de8f1a4e43cb3de2324d9d3df10360a5aaea3d18c99737e389229",
           "executable": false
         },
         "data/charts.csv": {
@@ -116,7 +116,7 @@
           "executable": false
         },
         "data/data-provenance.json": {
-          "sha256": "d766d1afb9fcdce89dbba580161b3dad260702a18871b12ab7f762eeaf8883e8",
+          "sha256": "4021c3b675f823857561ebaadae7b6c43f7c25bc97950af4ae7739ce4fc0ae00",
           "executable": false
         },
         "data/google-font-licenses.json": {
@@ -252,7 +252,7 @@
           "executable": false
         },
         "data/ux-guidelines.csv": {
-          "sha256": "9c473c1104e93f3d985f2d46d8854735e1a1deb8e0ac5ecd39c7e3b04e5d7528",
+          "sha256": "03b89ae5e237ab2f23a2e9a7ecebd5d70e42776341d0d7eb7302393fbd79c26a",
           "executable": false
         },
         "references/pro-rules.md": {
@@ -260,11 +260,11 @@
           "executable": false
         },
         "references/quick-reference.md": {
-          "sha256": "a2628145f48f076dda3d0f75e26a066a6590d4762da5aa4bb9bdd47782aa93cb",
+          "sha256": "ede37ffbdd543eb56c4ca328155d395fef979b3bf3e9c25581123c5cb46fdb65",
           "executable": false
         },
         "scripts/core.py": {
-          "sha256": "caf92bdcf2579c9a7d6af4f53c54ee9d3c8f05472cfab77aaec38bef120ec63e",
+          "sha256": "8bc447fc3f1bcd250c4365424ca2280ccd90f48203537bb4a5427e1d2e58eed3",
           "executable": false
         },
         "scripts/design_system.py": {
@@ -272,7 +272,7 @@
           "executable": false
         },
         "scripts/preview.py": {
-          "sha256": "2900f6b4307439c20083aa6a630332f9e8ac6fd95901bd703f75fa9a75b84fbb",
+          "sha256": "d1f9a7f29796020d122d4d02bff2e1269ab54615e15653994fec248671317669",
           "executable": false
         },
         "scripts/reasoning_contract.py": {
@@ -332,7 +332,7 @@
           "executable": false
         },
         "scripts/tests/fixtures/relevance-thresholds.json": {
-          "sha256": "3a588049c839fd9a2ddb5b29a4ac696d9cdc9823a6d90485bb9ba2a6d59fb685",
+          "sha256": "ee9f153923c6ede96bc823969343f1e9ca3b0a7920a5ff3ab2e650721a7043ce",
           "executable": false
         },
         "scripts/tests/test_catalog_refresh.py": {
@@ -371,6 +371,10 @@
           "sha256": "a23e0207074079390caf5c4720b8f4c96d8d8c4dac18a448826553fb6561b4f7",
           "executable": false
         },
+        "scripts/tests/test_form_error_handling.py": {
+          "sha256": "39ebda1e6d4f01e6d5a80f9143600af2cf78112cbb87c61e62aeb9cd28a29526",
+          "executable": false
+        },
         "scripts/tests/test_ime_composition.py": {
           "sha256": "7d4fc32b18ccfca02835a48163c93a36f44f9a794d25aaca888bba0b2127c05e",
           "executable": false
@@ -392,7 +396,7 @@
           "executable": false
         },
         "scripts/tests/test_rtl_support.py": {
-          "sha256": "fb1c42f782d1929959c5adaefb8169b187b1446a17720ed4f0691b1cd3bb7898",
+          "sha256": "501f71a064d5624102489398be0f10dd777ab9d5729e16bf3ca6f04f5b53af72",
           "executable": false
         },
         "scripts/tests/test_skill_script_paths.py": {
@@ -412,7 +416,7 @@
           "executable": false
         },
         "scripts/validate_data.py": {
-          "sha256": "e31ef4e1db1e6bb7910fb14b2a4dc139c513bca17d1e2827b292bde87d7120ca",
+          "sha256": "6f160c5baeb00dc82d526f8544457eadd5b53eeeb23760b94347614b54c3752b",
           "executable": false
         }
       }
