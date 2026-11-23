@@ -89,7 +89,7 @@
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
       "ref": "main",
       "path": ".claude/skills/ui-ux-pro-max",
-      "revision": "6ec2bb58334ca3014573c4cbd4834ee3a40afd9d",
+      "revision": "281e4537afb11333ac9947783779aaf314ebfbf2",
       "files": {
         "LICENSE": {
           "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
@@ -268,11 +268,11 @@
           "executable": false
         },
         "scripts/design_system.py": {
-          "sha256": "043ed3f404214869ffbf4c8d529afc6c6ceddb211fa4726d67d7a03edf7265db",
+          "sha256": "df3a6a10f54fb3e1919103b1bcfe9cb332d471c4cebbe30ab70bff5d3e57e742",
           "executable": false
         },
         "scripts/preview.py": {
-          "sha256": "d1f9a7f29796020d122d4d02bff2e1269ab54615e15653994fec248671317669",
+          "sha256": "ca34658b15afea5eeabeb19d09a6d7a11f3067ef43a6cc27deaa6f48f1b271fc",
           "executable": false
         },
         "scripts/reasoning_contract.py": {
@@ -280,7 +280,7 @@
           "executable": false
         },
         "scripts/search.py": {
-          "sha256": "6b52ebb01480058cab145d3c2cb57880a529e522c0781cf8cd873fa55c9b9f1d",
+          "sha256": "d6ae5b3421ff9fb7fde20c817d83b0b89feb557ebb9201d9effe2b3e3e8d89fc",
           "executable": false
         },
         "scripts/tests/fixtures/catalogs/google-api.json": {
@@ -332,7 +332,7 @@
           "executable": false
         },
         "scripts/tests/fixtures/relevance-thresholds.json": {
-          "sha256": "ee9f153923c6ede96bc823969343f1e9ca3b0a7920a5ff3ab2e650721a7043ce",
+          "sha256": "8c96101dccf36dec82b18c97e51f3024ac1608f1d0b705d6e2845b947f4c7724",
           "executable": false
         },
         "scripts/tests/test_catalog_refresh.py": {
@@ -396,7 +396,7 @@
           "executable": false
         },
         "scripts/tests/test_rtl_support.py": {
-          "sha256": "501f71a064d5624102489398be0f10dd777ab9d5729e16bf3ca6f04f5b53af72",
+          "sha256": "b41abae964f8e5919af4b21b9d629ed772d9a5bee184f0c0fc8cec0284859adf",
           "executable": false
         },
         "scripts/tests/test_skill_script_paths.py": {
