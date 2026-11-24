@@ -89,7 +89,7 @@
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
       "ref": "main",
       "path": ".claude/skills/ui-ux-pro-max",
-      "revision": "281e4537afb11333ac9947783779aaf314ebfbf2",
+      "revision": "f2f7266b07805025421611656045e9b44b41e2eb",
       "files": {
         "LICENSE": {
           "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
@@ -264,7 +264,7 @@
           "executable": false
         },
         "scripts/core.py": {
-          "sha256": "8bc447fc3f1bcd250c4365424ca2280ccd90f48203537bb4a5427e1d2e58eed3",
+          "sha256": "5d0b789c82be150fab860cabc1dc8bb666986ba548bc35b728891af3ca863ab9",
           "executable": false
         },
         "scripts/design_system.py": {
@@ -332,7 +332,7 @@
           "executable": false
         },
         "scripts/tests/fixtures/relevance-thresholds.json": {
-          "sha256": "8c96101dccf36dec82b18c97e51f3024ac1608f1d0b705d6e2845b947f4c7724",
+          "sha256": "02e7a9e7467254a951be9230c6b800600baca2e2480e2e05a7b398d0ab1829ab",
           "executable": false
         },
         "scripts/tests/test_catalog_refresh.py": {
