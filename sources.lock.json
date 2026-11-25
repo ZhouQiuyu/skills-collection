@@ -89,7 +89,7 @@
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
       "ref": "main",
       "path": ".claude/skills/ui-ux-pro-max",
-      "revision": "f2f7266b07805025421611656045e9b44b41e2eb",
+      "revision": "8db36338810d0942567b97ce439affd1619fcf31",
       "files": {
         "LICENSE": {
           "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
@@ -264,7 +264,7 @@
           "executable": false
         },
         "scripts/core.py": {
-          "sha256": "5d0b789c82be150fab860cabc1dc8bb666986ba548bc35b728891af3ca863ab9",
+          "sha256": "f8d05780e8704a5d373cf812fc6b0b15a8d5b064f5c4d6640b9c972ab9c9bbfb",
           "executable": false
         },
         "scripts/design_system.py": {
@@ -332,7 +332,7 @@
           "executable": false
         },
         "scripts/tests/fixtures/relevance-thresholds.json": {
-          "sha256": "02e7a9e7467254a951be9230c6b800600baca2e2480e2e05a7b398d0ab1829ab",
+          "sha256": "3c71b622b92037bb2b12a762283a35b2eeb0909efba44392974aa5d42148c31a",
           "executable": false
         },
         "scripts/tests/test_catalog_refresh.py": {
@@ -344,7 +344,7 @@
           "executable": false
         },
         "scripts/tests/test_core.py": {
-          "sha256": "3527fe2f4b852f69f07c17ddc0d615d9a6e025c924e45a33985579a94a8d2118",
+          "sha256": "d32381207e90207b085c873559b79e548259aa4eb07c19cd951b8a39137d1f17",
           "executable": false
         },
         "scripts/tests/test_core_data_quality.py": {
