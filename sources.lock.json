@@ -89,14 +89,14 @@
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
       "ref": "main",
       "path": ".claude/skills/ui-ux-pro-max",
-      "revision": "8db36338810d0942567b97ce439affd1619fcf31",
+      "revision": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c",
       "files": {
         "LICENSE": {
           "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
           "executable": false
         },
         "SKILL.md": {
-          "sha256": "d99f9475eaff0522549bc71843b6b2a8563253329d99ad7c0236275a039c2659",
+          "sha256": "d378acbf1c2536ea69c3e57ca31865408a13249b47fc9d35c31416bed2a95742",
           "executable": false
         },
         "data/app-interface.csv": {
@@ -104,7 +104,7 @@
           "executable": false
         },
         "data/catalog-summary.json": {
-          "sha256": "764bdc2a5a0de8f1a4e43cb3de2324d9d3df10360a5aaea3d18c99737e389229",
+          "sha256": "c89be24259e0d80fd18eab3d3382f3b417615017cc7e000d4e367ee020851be7",
           "executable": false
         },
         "data/charts.csv": {
@@ -195,6 +195,10 @@
           "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176",
           "executable": false
         },
+        "data/stacks/pyside6-qss.csv": {
+          "sha256": "95c9f067dc6b250ea0b0eb6175ec41fc1e366524d6971202a4b71267518ea238",
+          "executable": false
+        },
         "data/stacks/react-native.csv": {
           "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5",
           "executable": false
@@ -264,7 +268,7 @@
           "executable": false
         },
         "scripts/core.py": {
-          "sha256": "f8d05780e8704a5d373cf812fc6b0b15a8d5b064f5c4d6640b9c972ab9c9bbfb",
+          "sha256": "c8cbb05e1156e61e6cf3f9974f58a81e9bbe502147d6bda11d3213c5fab07e13",
           "executable": false
         },
         "scripts/design_system.py": {
@@ -328,11 +332,11 @@
           "executable": false
         },
         "scripts/tests/fixtures/relevance-cases.json": {
-          "sha256": "e77d36eebbf6ddc2860946a02cdb659351da6c09f2688f1ed30939a418099646",
+          "sha256": "eb2b79b3a3135089ce86af5d818c275e0098f2f6c717f006b9b1d3829cb40079",
           "executable": false
         },
         "scripts/tests/fixtures/relevance-thresholds.json": {
-          "sha256": "3c71b622b92037bb2b12a762283a35b2eeb0909efba44392974aa5d42148c31a",
+          "sha256": "75f26bb8d855315217d50764d617178e5d79efa20e3c14a83d2ace4e0b3f7f68",
           "executable": false
         },
         "scripts/tests/test_catalog_refresh.py": {
@@ -416,7 +420,7 @@
           "executable": false
         },
         "scripts/validate_data.py": {
-          "sha256": "6f160c5baeb00dc82d526f8544457eadd5b53eeeb23760b94347614b54c3752b",
+          "sha256": "78afcf554f71644cf6c2c5201fba6fded1c77c4a8e362376cf4826720374ae65",
           "executable": false
         }
       }
