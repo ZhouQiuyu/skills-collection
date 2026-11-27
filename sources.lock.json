@@ -89,14 +89,14 @@
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
       "ref": "main",
       "path": ".claude/skills/ui-ux-pro-max",
-      "revision": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c",
+      "revision": "11ca2b3bdd555649f278ee348c32a9302b24dcf1",
       "files": {
         "LICENSE": {
           "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
           "executable": false
         },
         "SKILL.md": {
-          "sha256": "d378acbf1c2536ea69c3e57ca31865408a13249b47fc9d35c31416bed2a95742",
+          "sha256": "39a82568d06b2555ad248afa7dfd035ed991c5d8bd23ae53460bf955da3af967",
           "executable": false
         },
         "data/app-interface.csv": {
@@ -104,7 +104,7 @@
           "executable": false
         },
         "data/catalog-summary.json": {
-          "sha256": "c89be24259e0d80fd18eab3d3382f3b417615017cc7e000d4e367ee020851be7",
+          "sha256": "d4ca4bdd69182bd45a55a4689ea85a5e64cec2db24de7b179c9463fb01717314",
           "executable": false
         },
         "data/charts.csv": {
@@ -116,7 +116,7 @@
           "executable": false
         },
         "data/data-provenance.json": {
-          "sha256": "4021c3b675f823857561ebaadae7b6c43f7c25bc97950af4ae7739ce4fc0ae00",
+          "sha256": "4b5069b0956d5c8148c1d575f1cb6a50ebaaa8b04289429a057a51e68d35b861",
           "executable": false
         },
         "data/google-font-licenses.json": {
@@ -136,7 +136,7 @@
           "executable": false
         },
         "data/motion.csv": {
-          "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb",
+          "sha256": "be9a538ffc34027019f0da77a64395d53520d17a43d3591a4a4d5d069b1ccffa",
           "executable": false
         },
         "data/phosphor-icons-upstream.json": {
@@ -272,7 +272,7 @@
           "executable": false
         },
         "scripts/design_system.py": {
-          "sha256": "df3a6a10f54fb3e1919103b1bcfe9cb332d471c4cebbe30ab70bff5d3e57e742",
+          "sha256": "b2beb2379832e98f744e81ca4322d523e78f12ac899ea9991a394e16a15ee71d",
           "executable": false
         },
         "scripts/preview.py": {
@@ -336,7 +336,11 @@
           "executable": false
         },
         "scripts/tests/fixtures/relevance-thresholds.json": {
-          "sha256": "75f26bb8d855315217d50764d617178e5d79efa20e3c14a83d2ace4e0b3f7f68",
+          "sha256": "3e9b57637a7171cf9da89f527e371fdde4c44d870d833f1c8dd0af4f9188af43",
+          "executable": false
+        },
+        "scripts/tests/test_ambient_motion.py": {
+          "sha256": "0e1c7f80f7e20345da916f4601fbfd5c5115a2b27dd73028d123aaee5ff2b824",
           "executable": false
         },
         "scripts/tests/test_catalog_refresh.py": {
@@ -360,7 +364,7 @@
           "executable": false
         },
         "scripts/tests/test_design_system_mode.py": {
-          "sha256": "95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef",
+          "sha256": "37ffb5d37cdd5f2bff1678b8e6b061452feadfd00d88cd14be393e83eedbae42",
           "executable": false
         },
         "scripts/tests/test_design_system_preview.py": {
